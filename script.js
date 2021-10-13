@@ -32,6 +32,7 @@ let lightColor = (element, Number) => {
   }, Number - 250)
   setTimeout(() => {
     element.classList.remove('selected')
+    // É necessário adicionar um comando para que a cor acenda e logo em seguida apague, dessa forma o jogo ficará menos confuso.
   })
 }
 
